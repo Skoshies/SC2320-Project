@@ -1,0 +1,7 @@
+Model,Accuracy,Binary-F1,Macro-F1,False-Class Recall,AUC-ROC
+Full Model (all retained features),0.8043,0.874,0.7179,0.4663,0.8327
+No Text,0.7861,0.8618,0.6944,0.4428,0.8141
+No Metadata Categories,0.8122,0.8789,0.73,0.4839,0.861
+No Metadata Numeric Features,0.7987,0.87,0.7125,0.4663,0.8301
+No Speaker-History Features,0.7332,0.8381,0.5401,0.1584,0.6803
+No LSH Features,0.7877,0.863,0.6959,0.4428,0.8155
