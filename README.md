@@ -1,8 +1,14 @@
 # SC2320 Project: Truthfulness Classification on the LIAR Dataset
 
-This repository contains the **v3 notebook** for the SC2320 course project on **truthfulness classification** using the **LIAR** dataset.
+This repository contains the **notebook (v3)** for the SC2320 course project on **truthfulness classification** using the **LIAR** dataset.
 
-## Project summary
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=ekuJ6Tk0-pQ">
+    <img src="https://img.youtube.com/vi/ekuJ6Tk0-pQ/0.jpg" alt="Watch the video" />
+  </a>
+</p>
+
+## Project Summary
 
 The project studies how classification performance changes when the feature space is expanded from a simple text-only baseline to richer engineered features.
 
@@ -27,10 +33,10 @@ The notebook also includes:
 - error analysis
 - CSV export of key outputs
 
-## Repository structure
+## Repository Structure
 
 ```text
-SC2320_Project_v3.ipynb
+SC2320_Project.ipynb
 requirements.txt
 README.md
 data/
@@ -42,7 +48,7 @@ outputs/
   tables/
 ```
 
-## Environment setup
+## Environment Setup
 
 Create a Python virtual environment in the project folder and install the required packages.
 
@@ -73,7 +79,7 @@ code .
 
 In VS Code:
 
-- open `SC2320_Project_v3.ipynb`
+- open `SC2320_Project.ipynb`
 - click the kernel selector at the top right
 - choose the interpreter inside `.venv`
 
@@ -92,11 +98,11 @@ import sys
 print(sys.executable)
 ```
 
-## Running the notebook
+## Running the Notebook
 
 Run the notebook **from top to bottom** in order:
 
-- `SC2320_Project_v3.ipynb`
+- `SC2320_Project.ipynb`
 
 Do not skip cells, since later sections depend on variables and helper functions defined earlier.
 
@@ -106,7 +112,7 @@ The notebook expects these dataset files to exist:
 - `data/valid.tsv`
 - `data/test.tsv`
 
-## Generated outputs
+## Generated Outputs
 
 The notebook writes outputs to:
 
@@ -128,7 +134,7 @@ The current notebook exports the following figures:
 - `figures/roc_curves_all_models_test.png`
 - `figures/threshold_tuning_tuned_xgb.png`
 
-### Tables / CSV files
+### Tables / CSV Files
 
 The notebook exports the following CSV files:
 
@@ -137,7 +143,7 @@ The notebook exports the following CSV files:
 - `tables/improved_cases.csv`
 - `tables/still_wrong_cases.csv`
 
-## Notes on scope
+## Notes on Scope
 
 The original LIAR dataset does not provide an external social graph or propagation graph.  
 For that reason, the final plain v3 notebook focuses on:
