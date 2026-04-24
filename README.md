@@ -3,8 +3,7 @@
 This repository contains the **notebook (v3)** for the SC2320 course project on **truthfulness classification** using the **LIAR** dataset.
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=ekuJ6Tk0-pQ">
-    <img src="https://img.youtube.com/vi/ekuJ6Tk0-pQ/0.jpg" alt="Watch the video" />
+  <a href="https://youtu.be/ekuJ6Tk0-pQ">
   </a>
 </p>
 
